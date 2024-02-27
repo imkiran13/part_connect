@@ -1,0 +1,45 @@
+input[type="checkbox"] {
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: $primary-white;
+    margin: 0;
+    font: inherit;
+    color: currentColor;
+    width: 15px;
+    height: 15px;
+    border: 1px solid $text-color !important;
+    transform: translateY(-0.075em);
+  
+    display: grid;
+    place-content: center;
+    &:focus{
+        outline: 0;
+        box-shadow: none;
+    }
+  }
+  
+  input[type="checkbox"]::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 3px;
+    transform: scale(0);
+    transform-origin: center;
+    transition: 120ms transform ease-in-out;
+    background-color: $primary-color;
+  }
+  
+  input[type="checkbox"]:checked::before {
+    transform: scale(1);
+  }
+  .form-check-label{
+    font-size: 1.6rem;
+    font-weight: 400;
+    @include breakpoint('mobile-max'){
+        font-size: 1.4rem;
+    }
+  }
+  .form-check-input:checked{
+    background-color: transparent !important;
+    border-color: $text-color !important;
+  }

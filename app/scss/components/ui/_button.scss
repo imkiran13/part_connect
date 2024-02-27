@@ -1,0 +1,24 @@
+.button{
+    text-transform: uppercase;
+    width: 100%;
+    font-size: 1.8rem;
+    padding: 12px 0;
+    border-radius: 5px;
+    outline: none;
+    margin: 0;
+    border: none;
+    font-family: $secondary-font;
+    font-weight: 700;
+   
+    &-primary{
+        background-color: $primary-color;
+        color: $primary-white;
+    }
+    &-outline{
+        background-color: $primary-white;
+        color:  $primary-color;
+        border: 1px solid $primary-color;
+    }
+  
+}
+

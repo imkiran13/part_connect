@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>part connect</title>
+    <link rel="stylesheet" href="scss/vendors/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+   
+</head>
+<body>
+    <div class="container-fluid Login-page">
+        <div class="row">
+            <div class="col-md-4 px-0">
+                <div class="left-section">
+                    <div class="info-wrapper d-flex justify-content-between flex-column">
+                        <div>
+                            <div class="logo-wrap">
+                                <img src="images/Part Connect_Logo.png" loading="lazy" alt="logo" class="logo-img img-fluid">
+                            </div>
+                            <h3 class="heading">Welcome back!</h3>
+                            <p class="description mb-0">Lorem ipsum dolor sit amet consectetur adipiscing elit volutpat fringilla, aenean ornare dapibus ultrices nunc luctus ullamcorper in, tortor tristique maecenas sodales sagittis accumsan non parturient.</p>
+                        </div>
+                        <p class="new-user">New User?<span> <a href="sign-up.html">Sign up today</a></span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="right-section mt-2 mt-md-0">
+                    <div class="login-wrapper">
+                        <ul class="nav nav-tabs border-0 justify-content-center login-tabs" id="myTab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                              <button class="nav-link active" id="garage-tab" data-bs-toggle="tab" data-bs-target="#garage" type="button" role="tab" aria-controls="garage" aria-selected="true">Garage</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                              <button class="nav-link" id="supplier-tab" data-bs-toggle="tab" data-bs-target="#supplier" type="button" role="tab" aria-controls="supplier" aria-selected="false">Supplier</button>
+                            </li>
+                          </ul>
+                          <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade show active" id="garage" role="tabpanel" aria-labelledby="garage-tab">
+                                <div class="garage-login mt-5">
+                                    <input type="email" class="form-control mb-4" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Email address">
+                                    <div class=" position-relative">
+                                        <input type="password" class="form-control mb-4" id="exampleInputPassword1" aria-describedby="PasswordHelp" placeholder="Password">
+                                        <span class="hide-password"><img src="images/Hide_Eye_Password.svg" alt="password hide"></span>
+                                    </div>
+                                    <div class="d-flex justify-content-between mb-4">
+                                        <div class="remember-checkbox d-flex align-items-center">    
+                                            <input type="checkbox" class="form-check-input m-0" id="exampleCheck1" name="checkbox" >
+                                            <label class="form-check-label ps-2" for="exampleCheck1">Remember me</label>
+
+                                             
+                                        </div>
+                                        <span class="forgot-pass"><a href="forgot-password.html">Forgot password?</a></span>
+                                    </div>
+                                    <button type="button" class="button button-primary">Log In</button>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="supplier" role="tabpanel" aria-labelledby="supplier-tab">
+                                <div class="garage-login mt-5">
+                                    <input type="email" class="form-control mb-4" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Email address">
+                                    <div class=" position-relative">
+                                        <input type="password" class="form-control mb-4" id="exampleInputPassword1" aria-describedby="PasswordHelp" placeholder="Password">
+                                        <span class="hide-password"><img src="images/Hide_Eye_Password.svg" alt="password hide"></span>
+                                    </div>
+                                    <div class="d-flex justify-content-between mb-4">
+                                        <div class="remember-checkbox d-flex align-items-center">    
+                                            <input type="checkbox" class="form-check-input m-0" id="exampleCheck1">
+                                            <label class="form-check-label ps-2" for="exampleCheck1">Remember me</label>
+                                        </div>
+                                        <span class="forgot-pass"><a href="forgot-password.html">Forgot password?</a></span>
+                                    </div>
+                                    <button type="button" class="button button-primary">Log In</button>
+                                </div>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

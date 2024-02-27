@@ -1,0 +1,45 @@
+.form-control{
+    background: $primary-grey;
+    border: none;
+    height: 40px;
+    font-size: 1.6rem;
+    font-weight: 400;
+    border-radius: 5px;
+    padding: 5px 15px;
+    @include breakpoint('mobile-max'){
+        font-size: 1.4rem;
+        height: 49px;
+    }
+    &::placeholder {
+        color: $text-color;
+        font-size: 1.6rem;
+      }
+      &:focus {
+        outline: 0;
+        box-shadow: none;
+        border: none;
+        background-color: $primary-grey;
+      }
+}
+
+
+
+.custom-form-select{
+    background-color: $primary-grey;
+    border: none;
+    height: 40px;
+    font-size: 1.6rem;
+    font-weight: 400;
+    border-radius: 5px;
+    padding: 5px 15px;
+    @include breakpoint('mobile-max'){
+      font-size: 1.4rem;
+      height: 49px;
+  }
+    &:focus {
+        outline: 0;
+        box-shadow: none;
+        border: none;
+        background-color: $primary-grey;
+      }
+}

@@ -1,0 +1,297 @@
+// pre-login login left section scss
+.left-section {
+    background-image: url("../images/Login_Background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0 46px;
+    color: $primary-white;
+    height: 100vh;
+    position: relative;
+    z-index: 9999;
+    @extend %flexCenter;
+
+    @include breakpoint('ipad-max') {
+        padding: 0 20px;
+    }
+
+    @include breakpoint('mobile-max') {
+        padding: 25px 20px;
+        height: auto;
+        justify-content: flex-start !important;
+    }
+
+
+    .info-wrapper {
+        @media(max-height:400px) {}
+
+
+        width: 100%;
+
+        @include breakpoint('mobile-max') {}
+
+        .logo-wrap {
+            border-bottom: 1px solid #F8F8F9;
+            margin-bottom: 50px;
+
+            @include breakpoint('mobile-max') {
+                margin-bottom: 30px;
+            }
+
+            .logo-img {
+                margin-bottom: 15px;
+
+                @include breakpoint('desktop-max') {
+                    max-width: 270px;
+                }
+
+                @include breakpoint('ipad-max') {
+                    max-width: 100%;
+                }
+
+                @include breakpoint('mobile-max') {
+                    max-width: 250px;
+                }
+            }
+        }
+
+        .heading {
+            font-size: 4.4rem;
+            margin-bottom: 10px;
+            font-weight: 700;
+            font-family: $secondary-font ;
+
+            @include breakpoint('medium-lg-desktop-max') {
+                font-size: 3rem;
+            }
+
+            @include breakpoint('desktop-max') {
+                font-size: 2.6rem;
+            }
+
+            @include breakpoint('ipad-max') {
+                font-size: 1.7rem;
+            }
+
+            @include breakpoint('mobile-max') {
+                font-size: 3rem;
+            }
+        }
+
+        .description {
+            font-size: 1.8rem;
+            font-weight: 400;
+            padding-bottom: 9rem;
+
+            @include breakpoint('desktop-max') {
+                font-size: 1.6rem;
+                padding-bottom: 4rem;
+
+            }
+
+            @include breakpoint('mobile-max') {
+                max-height: 3em;
+                overflow: hidden;
+                display: none;
+            }
+        }
+
+        a {
+            color: $primary-white;
+
+        }
+
+        .new-user {
+            font-size: 1.6rem;
+        }
+    }
+
+}
+
+// pre-login login right section scss
+.right-section {
+    height: 100%;
+    @extend %flexCenter;
+
+    @include breakpoint('mobile-max') {
+        margin-bottom: 30px;
+    }
+
+    @include breakpoint('portrait-mobile-max') {
+        padding-inline: 10px;
+    }
+
+    .login-wrapper {
+        min-width: 375px;
+        max-width: 407px;
+
+        @include breakpoint('portrait-mobile-max') {
+            min-width: 100%;
+        }
+
+        .login-subheading {
+            font-size: 1.8rem;
+            font-weight: 700;
+            text-transform: uppercase;
+
+            @include breakpoint('mobile-max') {
+                font-size: 1.6rem;
+            }
+        }
+
+        .login-heading {
+            font-size: 3rem;
+            font-family: $secondary-font;
+            font-weight: 700;
+            text-align: center;
+
+            @include breakpoint('mobile-max') {
+                font-size: 2.8rem;
+            }
+
+            @include breakpoint('custom-small-mobile-max') {
+                font-size: 2.3rem;
+            }
+
+            @include breakpoint('portrait-mobile-max') {
+                min-width: 100%;
+            }
+        }
+
+        .login-decsription {
+            font-size: 1.4rem;
+            font-weight: 400;
+            text-align: center;
+            margin-top: 15px;
+
+            @include breakpoint('mobile-max') {
+                font-size: 1.2rem;
+            }
+        }
+
+        .login-tabs {
+            .nav-item {
+
+
+                .nav-link {
+                    padding: 5px 30px;
+                    color: #858585;
+                    outline: none;
+                    border: none;
+                    font-size: 1.6rem;
+                    margin-right: 10px;
+                    font-weight: 700;
+                    border-bottom: 5px solid #E8E8E8 !important;
+
+                    &.active {
+                        color: $text-color;
+                        border: none;
+                        box-shadow: none;
+
+                        outline: none;
+                        border-bottom: 5px solid $primary-color !important;
+
+                    }
+
+                    &:focus {
+                        box-shadow: none;
+                        border: none;
+                        outline: none;
+                    }
+
+                    &:hover {
+                        border-color: transparent;
+
+                    }
+                }
+
+
+            }
+
+        }
+
+        .garage-login {
+
+            .hide-password {
+                position: absolute;
+                top: 10px;
+                right: 9px;
+
+                @include breakpoint('mobile-max') {
+                    top: 15px;
+                }
+            }
+
+            .forgot-pass a,
+            .forgot-pass span {
+                color: $text-color ;
+                font-size: 1.6rem;
+                font-weight: 400;
+
+                @include breakpoint('mobile-max') {
+                    font-size: 1.4rem;
+                }
+            }
+
+
+        }
+    }
+}
+
+
+
+
+// common modal design
+
+.common-modal-wrapper {
+
+    padding: 20px;
+    min-height: 257px;
+    background-color: $primary-white;
+    border-bottom: 10px solid $primary-color;
+
+    @include breakpoint('mobile-max') {
+
+        margin: 20px;
+    }
+
+    .modal-heading {
+        font-size: 2.2rem;
+        font-weight: 700;
+        text-align: center;
+        max-width: 290px;
+        font-family: $secondary-font;
+
+        @include breakpoint('mobile-max') {
+            font-size: 2rem;
+
+        }
+
+    }
+
+    .modal-body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+.remarks {
+    font-size: 1rem;
+    color: $primary-red;
+
+    @include breakpoint('mobile-max') {
+        font-size: 0.8rem;
+    }
+
+}
+
+
+.bg-primary-light {
+    background: $bg-primary-light
+}
+
+.bg-grey {
+    background: $bg-grey;
+}

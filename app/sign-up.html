@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1" />
+    <title>part connect</title>
+    <link rel="stylesheet" href="scss/vendors/bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="owl-carausal/owl.carousel.min.css" />
+    <link rel="stylesheet" href="owl-carausal/owl.theme.default.min.css" />
+
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <div class="container-fluid Login-page">
+        <div class="row  sign-up-main">
+            <div class="col-md-4 px-0 ">
+                <div class="left-section">
+                    <div class="info-wrapper d-flex justify-content-between flex-column">
+                        <div>
+                            <div class="logo-wrap">
+                                <img src="images/Part Connect_Logo.png" loading="lazy" alt="logo"
+                                    class="logo-img img-fluid" />
+                            </div>
+                            <h3 class="heading">Welcome back!</h3>
+                            <p class="description mb-0">
+                                Lorem ipsum dolor sit amet consectetur adipiscing elit
+                                volutpat fringilla, aenean ornare dapibus ultrices nunc luctus
+                                ullamcorper in, tortor tristique maecenas sodales sagittis
+                                accumsan non parturient.
+                            </p>
+                        </div>
+                        <p class="new-user">
+                            New User?<span> <a href="#">Sign up today</a></span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="right-section sign-up-wrapper mt-2 mt-md-0">
+                    <div class="login-wrapper">
+                        <ul class="nav nav-tabs border-0 login-tabs id="myTab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="your-information-tab" data-bs-toggle="tab"
+                                    data-bs-target="#your-information-tab-pane" type="button" role="tab"
+                                    aria-controls="your-information-tab-pane" aria-selected="true">
+                                    <span>Your information</span>
+                                    
+                                </button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="verify-email-tab" data-bs-toggle="tab"
+                                    data-bs-target="#verify-email-tab-pane" type="button" role="tab"
+                                    aria-controls="verify-email-tab-pane" aria-selected="false">
+                                    <span>  Verify email</span>
+                                  
+                                </button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="business-information-tab" data-bs-toggle="tab"
+                                    data-bs-target="#business-information-tab-pane" type="button" role="tab"
+                                    aria-controls="business-information-tab-pane" aria-selected="false">
+                                    <span>Business information</span>
+                                    
+                                </button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="subscription-plan-tab" data-bs-toggle="tab"
+                                    data-bs-target="#subscription-plan-tab-pane" type="button" role="tab"
+                                    aria-controls="subscription-plan-tab-pane" aria-selected="false">
+                                    <span>Subscription plan</span>
+                                    
+                                </button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="identity-check-tab" data-bs-toggle="tab"
+                                    data-bs-target="#identity-check-tab-pane" type="button" role="tab"
+                                    aria-controls="identity-check-tab-pane" aria-selected="false">
+                                    <span>Identity check</span>
+                                 
+                                </button>
+                            </li>
+                        </ul>
+
+
+                        <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade show active" id="your-information-tab-pane" role="tabpanel"
+                                aria-labelledby="your-information-tab" tabindex="0">
+                                <div class="garage__wrapper">
+                                    <div class="garage-login ">
+                                        <div class="row mb-4">
+                                            <div class="col-6">
+                                                <input type="text" class="form-control" aria-describedby="emailHelp"
+                                                    placeholder="First Name" />
+                                            </div>
+                                            <div class="col-6">
+                                                <input type="text" class="form-control" aria-describedby="emailHelp"
+                                                    placeholder="Last Name" />
+                                            </div>
+                                        </div>
+
+                                        <div class="mb-4 bd-example">
+                                            <select class="form-select custom-form-select"
+                                                aria-label="Default select example">
+                                                <option selected>Account type</option>
+                                            </select>
+                                        </div>
+                                        <div class="mb-4">
+                                            <input type="email" class="form-control" aria-describedby="emailHelp"
+                                                placeholder="Email address" />
+                                        </div>
+
+                                        <div class="mb-4">
+                                            <input type="" class="form-control" aria-describedby="numberHelp"
+                                                placeholder="Mobile Number" />
+                                        </div>
+                                        <div class="mb-4 bd-example">
+                                            <select class="form-select custom-form-select"
+                                                aria-label="Default select example">
+                                                <option selected>Job title</option>
+                                            </select>
+                                        </div>
+                                        <div class="position-relative mb-4">
+                                            <input type="password" class="form-control" aria-describedby="PasswordHelp"
+                                                placeholder="Password" />
+                                            <span class="hide-password"><img src="images/Hide_Eye_Password.svg"
+                                                    alt="password hide" /></span>
+                                        </div>
+                                        <div class="position-relative mb-4">
+                                            <input type="password" class="form-control mb-4" id="exampleInputPassword1"
+                                                aria-describedby="PasswordHelp" placeholder="Confirm new password" />
+                                            <span class="hide-password"><img src="images/Hide_Eye_Password.svg"
+                                                    alt="password hide" /></span>
+                                        </div>
+                                        <div class="d-flex justify-content-between mb-4">
+                                            <div class="remember-checkbox d-flex align-items-start">
+                                                <div class="mt-2">
+                                                    <input type="checkbox" class="form-check-input m-0"
+                                                        id="exampleCheck1" name="checkbox" />
+                                                </div>
+                                                <label class="form-check-label ps-3" for="exampleCheck1">By signing up I
+                                                    agree to lorem ipsum dolor sit
+                                                    amet, consectetur adipiscing elit, sed do eiusmod
+                                                    tempor incididunt ut labore.</label>
+                                            </div>
+                                        </div>
+                                        <button type="button" class="button button-primary">
+                                            Sign up
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="verify-email-tab-pane" role="tabpanel"
+                                aria-labelledby="verify-email-tab" tabindex="0">
+                                <div class="login-wrapper pt-0">
+                                    <div class="garage__wrapper d-flex align-items-center justify-content-center">
+                                        <div class="verify-email-wrapper">
+                                            <h5 class="login-subheading">you're one step away</h5>
+                                            <h5 class="login-heading login-heading__updated">
+                                                Verify your email address
+                                            </h5>
+                                            <p class="login-decsription mt-0">
+                                                Thank you for signing up, we’re so happy to have you.
+                                                Simply click the link in the email we’ve sent you to
+                                                activate your account.
+                                            </p>
+                                            <button type="button" class="button button-primary">
+                                                Re-send email
+                                            </button>
+                                            <p class="imp-text">
+                                                Cant find it? Check your spam/junk folder.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="business-information-tab-pane" role="tabpanel"
+                                aria-labelledby="business-information-tab" tabindex="0">
+                                <div class="garage__wrapper">
+                                    <div class="garage-login  business-main">
+                                        <div class="mb-4">
+                                            <input type="text" class="form-control" aria-describedby="emailHelp"
+                                                placeholder="VAT number (if registered)" />
+                                        </div>
+                                        <div class="mb-4 bd-example">
+                                            <select class="form-select custom-form-select"
+                                                aria-label="Default select example">
+                                                <option selected>Business legal entity</option>
+                                                <option value="1">Limited company</option>
+                                                <option value="2">Sole trader</option>
+                                            </select>
+                                        </div>
+                                        <div class="mb-4">
+                                            <input type="text" class="form-control" aria-describedby="emailHelp"
+                                                placeholder="Company name" />
+                                        </div>
+                                        <div class="mb-4">
+                                            <input type="text" class="form-control" aria-describedby="emailHelp"
+                                                placeholder="Trading address" />
+                                        </div>
+                                        <div class="mb-4 bd-example">
+                                            <select class="form-select custom-form-select"
+                                                aria-label="Default select example">
+                                                <option selected>Billing address</option>
+                                            </select>
+                                        </div>
+                                        <div class="mb-4">
+                                            <input type="text" class="form-control" aria-describedby="numberHelp"
+                                                placeholder="Website" />
+                                        </div>
+
+                                        <div class="mb-4">
+                                            <input type="email" class="form-control" aria-describedby="emailHelp"
+                                                placeholder="Business email address" />
+                                        </div>
+                                        <div class="mb-4">
+                                            <input type="email" class="form-control" aria-describedby="emailHelp"
+                                                placeholder="Invoice email address" />
+                                        </div>
+
+                                        <div class="mb-4">
+                                            <input type="text" class="form-control" aria-describedby="numberHelp"
+                                                placeholder="Landline number" />
+                                        </div>
+                                        <div class="mb-4">
+                                            <input type="text" class="form-control" aria-describedby="numberHelp"
+                                                placeholder="Mobile Number" />
+                                        </div>
+
+                                        <div class="mb-4 market-preference">
+                                            <span class="remarks">One contact number is required</span>
+                                            <div>
+                                                <h5 class="market-heading">
+                                                    Your marketing preferences<span class="market-subhead ps-2">(Opt out
+                                                        anytime)</span>
+                                                </h5>
+                                                <p class="market-subhead">
+                                                    For special offers, discounts, new features,
+                                                    supplier promotions & more.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="mb-4 d-flex align-items-center g-2">
+                                            <div class="remember-checkbox d-flex align-items-center mb-4">
+                                                <div>
+                                                    <input type="checkbox" class="form-check-input m-0"
+                                                        id="exampleCheck1" name="checkbox" />
+                                                </div>
+                                                <label class="form-check-label form-check-label-new ps-3"
+                                                    for="exampleCheck1">Email</label>
+                                            </div>
+                                            <div class="remember-checkbox d-flex align-items-center mb-4 ps-4">
+                                                <div>
+                                                    <input type="checkbox" class="form-check-input m-0"
+                                                        id="exampleCheck1" name="checkbox" />
+                                                </div>
+                                                <label class="form-check-label form-check-label-new ps-3"
+                                                    for="exampleCheck1">Letter</label>
+                                            </div>
+                                            <div class="remember-checkbox d-flex align-items-center mb-4 ps-4">
+                                                <div>
+                                                    <input type="checkbox" class="form-check-input m-0"
+                                                        id="exampleCheck1" name="checkbox" />
+                                                </div>
+                                                <label class="form-check-label form-check-label-new ps-3"
+                                                    for="exampleCheck1">SMS</label>
+                                            </div>
+                                        </div>
+                                        <button type="button" class="button button-primary">
+                                            Submit
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane fade" id="subscription-plan-tab-pane" role="tabpanel"
+                                aria-labelledby="subscription-plan-tab" tabindex="0">
+                                <div class="login-wrapper pt-0 ">
+
+                                    <div class="garage__wrapper">
+                                        <div class="subscription-wrapper ">
+                                            <h5 class="subscription-heading text-center">You’’ll need your payment card
+                                                information for this stage. <br> For a custom plan, please <span> <a
+                                                        href="">contact us </a></span></h5>
+                                            <div class="slider_wrapper owl-carousel">
+                                                <div
+                                                    class="subscription__slider d-flex justify-content-center align-items-center flex-column">
+                                                    <div class="d-flex justify-content-center align-items-center flex-column">
+                                                        <h6 class="slider_heading">Bronze</h6>
+                                                    <p class="slider_subheading ">$30/month</p>
+                                                    </div>
+                                                    <p class="slider_description">20 quotes a month (£1.20 + VAT per
+                                                        quote over limit)</p>
+                                                </div>
+                                                <div
+                                                    class="subscription__slider d-flex justify-content-center align-items-center flex-column">
+                                                    <div class="d-flex justify-content-center align-items-center flex-column">
+                                                        <h6 class="slider_heading">Silver</h6>
+                                                    <p class="slider_subheading ">$49.50/month</p>
+                                                    </div>
+                                                    <p class="slider_description">40 quotes a month (£0.99 + VAT per
+                                                        quote over limit)</p>
+                                                </div>
+                                                <div
+                                                    class="subscription__slider d-flex justify-content-center align-items-center flex-column">
+                                                    <div class="d-flex justify-content-center align-items-center flex-column">
+                                                    <h6 class="slider_heading">Gold</h6>
+                                                    <p class="slider_subheading ">$71.25/month</p>
+                                                  </div>
+                                                    <p class="slider_description">75 quotes a month (£0.95 + VAT per
+                                                        quote over limit)</p>
+                                                </div>
+                                                <div
+                                                    class="subscription__slider d-flex justify-content-center align-items-center flex-column">
+                                                    <div class="d-flex justify-content-center align-items-center flex-column">
+                                                    <h6 class="slider_heading">Diamond</h6>
+                                                    <p class="slider_subheading ">$90/month</p>
+                                                  </div>
+                                                    <p class="slider_description">100 quotes a month (£0.90 + VAT per
+                                                        quote over limit)</p>
+                                                </div>
+                                                <div
+                                                    class="subscription__slider d-flex justify-content-center align-items-center flex-column">
+                                                   <div class="d-flex justify-content-center align-items-center flex-column">
+                                                    <h6 class="slider_heading">Platinum</h6>
+                                                    <p class="slider_subheading ">$166/month</p>
+                                                   </div>
+                                                    <p class="slider_description ">20 quotes a month (£0.188 + VAT
+                                                        per quote over limit)</p>
+                                                    <p class="bottom-text">most popular</p>
+                                                </div>
+                                                
+                                               
+                                               
+                                            </div>
+
+                                            <div class="card-wrapper">
+                                                <div class="col-md-8 mx-auto">
+                                                    <div class="bg-grey">
+                                                        <div class="card-content">
+                                                            <p class="text-end">Debit/Credit card</p>
+                                                        </div>
+                                                        <div class="card-content">
+                                                            <div class="mb-4">
+                                                                <input type="text" class="form-control form-input-white"
+                                                                    aria-describedby="numberHelp"
+                                                                    placeholder="Card holder name">
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-6">
+                                                                    <div class="mb-4">
+                                                                        <input type="text"
+                                                                            class="form-control form-input-white"
+                                                                            aria-describedby="numberHelp"
+                                                                            placeholder="MM/YY">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-6">
+                                                                    <div class="mb-4">
+                                                                        <input type="text"
+                                                                            class="form-control form-input-white"
+                                                                            aria-describedby="numberHelp"
+                                                                            placeholder="CVC">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="mb-4">
+                                                                <input type="text" class="form-control form-input-white"
+                                                                    aria-describedby="numberHelp"
+                                                                    placeholder="Card  number">
+                                                            </div>
+                                                            <div class="bg-primary-light content-footer p-4">
+                                                                <div class="d-flex align-items-center">
+                                                                    <span class="me-3 d-block"> <img
+                                                                            src="images/lock-sm.svg" alt="photo-icon">
+                                                                    </span>
+                                                                    <p>All transaction are secure and encrypted with <a
+                                                                            href="#">SecuritySystem</a></p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6 mx-auto">
+                                                        <button type="button"
+                                                            class="button button-primary my-4 mb-5">Purchase</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="tab-pane fade" id="identity-check-tab-pane" role="tabpanel"
+                                aria-labelledby="identity-check-tab" tabindex="0">
+                                <div class="login-wrapper pt-0">
+                                    <div class="garage__wrapper d-flex  justify-content-center">
+                                        <div class="verify-email-wrapper identity-wrapper">
+                                            <div class="identity-inner-wrapper">
+                                                <h5 class="login-subheading">identity check</h5>
+                                                <p class="login-decsription mt-0">
+                                                    We need to verify your identity before approving your
+                                                    account — we use Stripe to do this.
+                                                </p>
+                                            </div>
+
+                                            <div class="identity-boxes">
+                                                <div>
+                                                    <img src="images/photo-icon.svg" alt="photo-icon" />
+                                                </div>
+                                                <p class="login-decsription mt-0">
+                                                    You’ll scan a valid Driving License, then take a
+                                                    selfie to make sure it’s yours.
+                                                </p>
+                                            </div>
+                                            <div class="identity-boxes">
+                                                <div>
+                                                    <img src="images/lock-icon.svg" alt="lock-icon" />
+                                                </div>
+                                                <p class="login-decsription mt-0">
+                                                    Part Connect will only have access to this
+                                                    verification data.
+                                                </p>
+                                            </div>
+                                            <div class="identity-boxes">
+                                                <div>
+                                                    <img src="images/scan-icon.svg" alt="scan-icon" />
+                                                </div>
+                                                <p class="login-decsription mt-0">
+                                                    Stripe uses biometric technology on your images to
+                                                    make sure its you. You can delete your data at any
+                                                    time.
+                                                </p>
+                                            </div>
+
+                                            <button type="button" class="button button-primary">
+                                                Agree and continue
+                                            </button>
+
+                                            <button type="button" class="button button-outline" data-bs-toggle="modal"
+                                                data-bs-target="#staticBackdrop">
+                                                Decline
+                                            </button>
+                                            <p class="imp-text ">
+                                                If you wish to decline, please
+                                                <a href="" class="imp-text">click here</a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- modal starts  -->
+
+    <!-- Modal -->
+    <div class="modal fade  signup-modal" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+        tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content common-modal-wrapper">
+                <div class="modal-header border-0">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h6 class="modal-heading">
+                        Please get in touch with the Part Connect team
+                    </h6>
+                    <button type="button" class="button button-primary">
+                        Get in touch
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="owl-carausal/jquery.min.js"></script>
+    <script src="owl-carausal/owl.carousel.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="owl-carausal/owl.js"></script>
+    <script src="js/main.js"></script>
+
+    <script>
+
+    </script>
+</body>
+
+</html>
